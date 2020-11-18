@@ -45,6 +45,6 @@ def quickSort(array, low, high):
 
 if __name__ == '__main__':
 
-    nums = [3, 1, 2, 8, 5]
+    nums = [3, 1, 6, 8, 0]
     quickSort(nums, 0, len(nums) - 1)
     print(nums)
